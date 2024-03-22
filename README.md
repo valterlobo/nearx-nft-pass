@@ -1,0 +1,1 @@
+# nearx-nft-pass
