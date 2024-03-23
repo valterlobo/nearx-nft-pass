@@ -1,4 +1,4 @@
-# NFT PASS : Acesso descentralizado ao conhecimento  #
+# NFT PASS:Acesso descentralizado ao conhecimento #
 
 O NFT PASS é uma revolucionária ferramenta que permite acesso descentralizado ao conhecimento por meio de NFTs. Oferecendo autenticidade, transparência e interoperabilidade, o NFT PASS redefine a maneira como os eventos online são acessados e compartilhados. 
 
@@ -19,28 +19,31 @@ O NFT PASS é uma ferramenta inovadora que visa promover uma educação mais inc
 5. **Incentivos para Criadores de Conteúdo:** Os criadores de conteúdo se beneficiam da interoperabilidade, pois podem integrar facilmente os tickets do NFT PASS de acesso a seus eventos online em diversas plataformas, ampliando assim seu alcance e aumentando sua base de fãs.
 
 
-[PITCH DECK: NFT PASS ](/docs/Hackathon%20TN%20Pitch%20Deck.pdf)
+[PITCH DECK: NFT PASS ](/docs/NFT_PAGE_One_Page)
 
 ## Equipe
 
 
 ### Gabriel Thome
 Blockchain Developer | Software Engineer | Smart Contracts | Solidity | TypeScript | JavaScript | MERN Full Stack
+
 https://www.linkedin.com/in/gabrieltome/
 
 ### Tiago Cavazin
 Dev Solidity| Arquiteto em  soluções empresariais Blockchain  Engenheiro em Blockchain | Arquiteto e Designer de Tokenomics|   Product Managment| Pesquisador Web3
+
 https://www.linkedin.com/in/tiagoferreiracavazin/
 
 ###  Valter Lobo
 Software Engineer | Software Architect | Blockchain Developer | Product Manager | Scrum Master
+
 https://www.linkedin.com/in/valterlobo/
 
 
 
-## ARQUITETURA DOS CONTRATOS/ FLUXO DE FUNCIONAMENTO 
+## FLUXO DE FUNCIONAMENTO 
 
-xxxxxxxxxxxxxx
+![](<Web3 - Desenvolvimento (3).jpg>)
 
 
 ## Links
@@ -48,12 +51,18 @@ xxxxxxxxxxxxxx
 
 ### Smarts Contracts 
 
-- fdsfdsfdsfdsfdfdsf
+#### NFTPassFactory 
 
-### [REGISTRO DO CONTRATO) [https://mumbai.polygonscan.com/address/0x47d9b72714323340f594e8a6f8bb3c1bf0a4259d]
+Realiza a criação dos eventos  (NFTPass) 
 
+https://sepolia-optimism.etherscan.io/address/0x55ada3c97518673b2e9db327f4e2d9d220ec23b1#code
 
+#### NFTPass 
 
+Cada evento e realizado o deploy de novo smartContract NFTPass
+e cada tipo representa um tipo de acesso ao evento. 
+
+https://sepolia-optimism.etherscan.io/address/0x64dd5794f7ed60d28e457dd90fe79a886120f350#code
 
 
 ### Frontend Dapp 
@@ -64,18 +73,16 @@ xxxxxxxxxxxxxx
 ##  DEPLOY
 
 
-### Deploy dos smarts contracts 
+### Deploy dos smarts contracts (testnet)
 
-       npx hardhat run scripts/2-security-roles.js --network mumbai
+       #### Confirar a variaveis no arquivo .env -> .env.example
+       forge script script/DeployToken.s.sol:NFTDeployScript --rpc-url $SEPOLIA_RPC_URL --broadcast --verify -vvvv
 
-### Deploy do frontend
+       
 
-    npx hardhat run scripts/2-security-roles.js --network mumbai
+### Deploy do frontend(local)
 
-
-
-O processo de deploy foi concluído com sucesso na testnet de ......
-
+    npm start 
 
 
 **NFT ERC-1155**
