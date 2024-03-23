@@ -19,7 +19,16 @@ O NFT PASS é uma ferramenta inovadora que visa promover uma educação mais inc
 5. **Incentivos para Criadores de Conteúdo:** Os criadores de conteúdo se beneficiam da interoperabilidade, pois podem integrar facilmente os tickets do NFT PASS de acesso a seus eventos online em diversas plataformas, ampliando assim seu alcance e aumentando sua base de fãs.
 
 
-[PITCH DECK: NFT PASS ](/docs/NFT_PAGE_One_Page)
+[https://www.canva.com/design/DAGASh3UM_0/lDb-RdXqCaARCRHVagFgTg/view?utm_content=DAGASh3UM_0&utm_campaign=designshare&utm_medium=link&utm_source=editor]
+
+
+-------
+----
+
+![alt text](docs/NFT_PAGE_One_Page.jpg)
+
+-----
+
 
 ## Equipe
 
@@ -75,8 +84,9 @@ https://sepolia-optimism.etherscan.io/address/0x64dd5794f7ed60d28e457dd90fe79a88
 
 ### Deploy dos smarts contracts (testnet)
 
-       #### Confirar a variaveis no arquivo .env -> .env.example
-       forge script script/DeployToken.s.sol:NFTDeployScript --rpc-url $SEPOLIA_RPC_URL --broadcast --verify -vvvv
+Confirar a variaveis no arquivo .env -> .env.example.
+
+    forge script script/DeployToken.s.sol:NFTDeployScript --rpc-url $SEPOLIA_RPC_URL --broadcast --verify -vvvv
 
        
 
