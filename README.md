@@ -19,7 +19,8 @@ O NFT PASS é uma ferramenta inovadora que visa promover uma educação mais inc
 5. **Incentivos para Criadores de Conteúdo:** Os criadores de conteúdo se beneficiam da interoperabilidade, pois podem integrar facilmente os tickets do NFT PASS de acesso a seus eventos online em diversas plataformas, ampliando assim seu alcance e aumentando sua base de fãs.
 
 
-[https://www.canva.com/design/DAGASh3UM_0/lDb-RdXqCaARCRHVagFgTg/view?utm_content=DAGASh3UM_0&utm_campaign=designshare&utm_medium=link&utm_source=editor]
+### [PITCH DECK: NFT PASS](https://www.canva.com/design/DAGASh3UM_0/lDb-RdXqCaARCRHVagFgTg/view?utm_content=DAGASh3UM_0&utm_campaign=designshare&utm_medium=link&utm_source=editor)
+
 
 
 -------
