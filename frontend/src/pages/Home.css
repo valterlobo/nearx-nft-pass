@@ -1,0 +1,114 @@
+.hero {
+    margin         : 5em;
+    display        : flex;
+    flex-direction : row;
+    gap            : 2em;
+    justify-content: center;
+    align-items    : center;
+    max-width      : 800px;
+    padding        : 2em;
+}
+
+.subhero {
+    display        : flex;
+    flex-direction : column;
+    justify-content: center;
+    align-items    : left;
+    text-align     : left;
+    gap            : 1em;
+    min-width      : 50%;
+}
+
+.subhero h1 {
+    font-size  : 40px;
+    font-weight: bold;
+    color      : #ffffff;
+    width      : fit-content;
+}
+
+.subhero p {
+    font-size  : 18px;
+    line-height: 1.4;
+    color      : #CACAD6;
+}
+
+.subhero button {
+    display         : flex;
+    flex-direction  : row;
+    justify-content : center;
+    align-items     : center;
+    gap             : 6px;
+    width           : fit-content;
+    color           : white;
+    font-weight     : 900;
+    border-radius   : 4px;
+    background-color: var(--solana-purple);
+    border          : none;
+    text-align      : center;
+    padding         : 1em;
+    cursor          : pointer;
+}
+
+.subhero button:hover {
+    background: linear-gradient(90deg, rgba(153, 69, 255, 1) 0%, rgba(20, 241, 149, 1) 100%);
+}
+
+.feature {
+    display        : flex;
+    justify-content: space-between;
+    align-items    : center;
+    padding        : 50px 20px;
+    width          : 100%;
+}
+
+.feature-content {
+    flex         : 1;
+    padding-right: 20px;
+}
+
+.feature-content h2 {
+    font-size    : 28px;
+    margin-bottom: 1em;
+}
+
+.feature-content p {
+    font-size  : 18px;
+    line-height: 1.4;
+    color      : #CACAD6;
+}
+
+.feature-content button {
+    display         : flex;
+    flex-direction  : row;
+    justify-content : center;
+    align-items     : center;
+    gap             : 6px;
+    width           : fit-content;
+    color           : white;
+    font-weight     : 600;
+    border-radius   : 4px;
+    background-color: var(--solana-purple);
+    border          : none;
+    text-align      : center;
+    padding         : 1em;
+    cursor          : pointer;
+}
+
+@media screen and (max-width: 800px) {
+    .hero {
+        margin        : 10%;
+        flex-direction: column;
+        gap           : 2em;
+        padding       : 1em;
+    }
+
+    .subhero {
+        text-align : center;
+        align-items: center;
+    }
+
+    .subhero img {
+        max-width: 300px;
+    }
+
+}

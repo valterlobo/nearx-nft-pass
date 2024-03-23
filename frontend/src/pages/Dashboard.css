@@ -1,0 +1,38 @@
+.dashboard {
+    padding       : 20px;
+    height        : fit-content;
+    padding-bottom: 10em;
+}
+
+h2 {
+    text-align: center;
+    margin    : 1em 0 2em 0;
+    font-size : 24px;
+    color     : white;
+}
+
+.curso-list {
+    display              : grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap                  : 20px;
+}
+
+.nft-list {}
+
+.nft {
+    margin        : 1em;
+    border        : 1px solid white;
+    display       : flex;
+    flex-direction: column;
+    padding       : 1em;
+}
+
+.nft h3 {
+    font-size: 17px;
+}
+
+@media screen and (max-width: 768px) {
+    .curso-list {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+}
