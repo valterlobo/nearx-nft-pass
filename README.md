@@ -77,7 +77,7 @@ https://sepolia-optimism.etherscan.io/address/0x64dd5794f7ed60d28e457dd90fe79a88
 
 ### Frontend Dapp 
 
-- fddsfdfdfdsfdsfdsfdsfdfdfd
+- f[NFT PASS](https://decentralearn-nft-pass.vercel.app/)
 
 
 ##  DEPLOY
